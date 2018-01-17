@@ -13,7 +13,7 @@ int main()
         printf("Hello world\n\u269b\n");
         for( n=10 ; n>0 ; n-- ) {
             printf("%3d …",n);
-            wait(0.50);
+            wait(0.50);wait(0.50);
         }
         putchar('\n');
     }
